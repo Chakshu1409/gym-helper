@@ -1,0 +1,15 @@
+
+
+.profileListItem{
+    border: 2px solid ;
+    width: fit-content;
+;
+    
+}
+.profileList{
+    display: flex;
+    border: 2px solid;
+    width: 100%;
+    height: 200px;
+   
+}

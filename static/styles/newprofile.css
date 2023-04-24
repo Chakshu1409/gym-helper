@@ -1,0 +1,13 @@
+.container-1{
+    height: 300px;
+    width: 300px;
+    border: 1px solid;
+    padding: 20px;
+    margin: auto;
+    background-color: #d5d5d5;
+}
+.btn-add{
+    display: inline-block;
+    margin: auto;
+    width: 40vh;
+}

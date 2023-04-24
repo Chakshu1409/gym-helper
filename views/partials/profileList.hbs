@@ -1,0 +1,22 @@
+<div class="profileList">
+    <h1>Profiles:</h1><br>
+
+
+    
+
+   {{#each profiles as |profile|}}
+   <ul class="profileListItem">
+        
+        <li>{{profile.clientname}} </li>
+        <li>{{profile.clientage}} </li>
+        <li id="part">{{profile.clientpart}}</li>
+        <li id="level">{{profile.clientlevel}}</li>
+
+        
+        <form action="/{{profile.id}}" method="get">
+        <button id="show">SHOW</button>
+        </form>
+
+    </ul>
+    {{/each}}
+</div>
